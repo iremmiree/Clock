@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Clock</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td class="text">
+                <div class="hours" id="hours"></div>
+            </td>
+
+            <td class="dot">
+                    <svg width="30px" >
+                        <circle cx="15" cy="45" r="6" class="circle"/>
+                        <circle cx="15" cy="65" r="6" class="circle"/>
+                    </svg>
+            </td>
+
+            <td class="text">
+                <div class="minutes" id="minutes"></div>
+            </td>
+            <td class="dot">
+                <svg width="30px" >
+                    <circle cx="15" cy="45" r="6" class="circle"/>
+                    <circle cx="15" cy="65" r="6" class="circle"/>
+                </svg>
+            </td>
+
+            <td class="text">
+                <div class="seconds" id="seconds"></div>
+            </td>
+        </tr>
+    </table>
+
+    <script src='main.js'></script>
+</body>
+</html>
